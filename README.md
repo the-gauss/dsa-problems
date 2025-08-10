@@ -4,7 +4,7 @@
 
 ## What's Inside
 - **Select problems from Goodrich and Tamasia**
-- **Some from UC San Diego's DSA course at Coursera** 
+- **Some from UC San Diego's DSA course** 
 - **Problems from Cracking the Coding Interview by** 
 - **LeetCode Challenges** 
 - **More Cool Stuff** 
