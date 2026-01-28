@@ -5,13 +5,13 @@
 ## What's Inside
 - **Select problems from Goodrich and Tamasia**
 - **Some from UC San Diego's DSA course** 
-- **Problems from Cracking the Coding Interview by** 
+- **Problems from Cracking the Coding Interview** 
 - **LeetCode Challenges** 
 - **More Cool Stuff** 
 
 ## Get Started
 ```bash
-git clone https://github.com/ryuukkk/dsa-problems.git
+git clone https://github.com/the-gauss/dsa-problems.git
 cd dsa-problems
 # Explore and enjoy!
 ```
@@ -28,4 +28,6 @@ Got a slick solution? PRs welcome!
 ## Holler at Me 
 LinkedIn: https://www.linkedin.com/in/kartik-thory
 
-Email: kartik.kumar.career@gmail.com
+Email: kartikthory@icloud.com
+
+‼️This repository only contains solutions. Original problem statements are deliberately excluded from this repository to protect the IP rights of the creators. Please check the original sources for actual questions, I have made my best attempts to include question identifiers to reach the problem statements once you have subscribed to the source service or bought the source (Leetcode, CTCI, UCSD course on Coursera, Goodrich and Tamasia's book, etc.).
