@@ -10,7 +10,6 @@ Time Complexity: O(log_10 x), proportional to the number of digits in x.
 Space Complexity: O(1).
 """
 
-
 def is_palindrome_int(x: int) -> bool:
     if x < 0:       # Negative numbers can't be palindromes
         return False
@@ -28,10 +27,8 @@ if __name__ == "__main__":
     for t in tests:
         print(t, is_palindrome_int(t))
 
-"""9. Palidrome Number — Solution 1: The String Cast.
 
-Refer to https://leetcode.com/problems/palindrome-number/ for the problem
-statement.
+"""The String Cast.
 
 The Good: It is highly Pythonic, concise, and correctly handles negative
 numbers because the minus sign is preserved in the string reversal ("-121"
@@ -44,7 +41,6 @@ digits. The core intent is to manipulate integers mathematically, not use
 Python string slicing.
 """
 
-
 def is_palindrome_str(x: int) -> bool:
     return str(x)[::-1] == str(x)
 
@@ -54,17 +50,14 @@ if __name__ == "__main__":
     for t in tests:
         print(t, is_palindrome_str(t))
 
-"""9. Palidrome Number — Solution 3: The Optimal Solution.
 
-Refer to https://leetcode.com/problems/palindrome-number/ for the problem
-statement.
+"""The Optimal Solution.
 
 A palindrome is mirrored at its center, so reverse only the second half and
 compare it to the first. This also reduces the risk of integer overflow in
 statically typed languages such as Java and C++ (though it is not a major
 problem in Python). Time and space complexity are the same as Solution 2.
 """
-
 
 def is_palindrome(x: int) -> bool:
     # Fast fail: All negative numbers are not palindromes.
